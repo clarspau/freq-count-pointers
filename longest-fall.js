@@ -1,6 +1,7 @@
 // add whatever parameters you deem necessary
 function longestFall(nums) {
      let counter = 1;
+     // assuming that the array in not empty, the maxCounter would be at least 1
      let maxCounter = 1;
 
      // if the array is empty, return 0
